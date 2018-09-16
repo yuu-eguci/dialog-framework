@@ -1,0 +1,10 @@
+
+*~
+.DS_Store
+__pycache__/
+
+DialogFrameCassettes.git/
+DialogFrameConfig.py
+
+# これは最後に書かないとダメ。
+!.gitkeep

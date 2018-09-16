@@ -1,0 +1,6 @@
+bg_skype.png [0, 0]
+dialogbox.png [20, 320]
+w_pajamas.png [450, 20]
+w_kimono.png [460, 30]
+w_futon.png [360, 70]
+m_reading.png [10, 185]
