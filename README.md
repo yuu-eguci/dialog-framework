@@ -28,8 +28,6 @@ DialogFrame
 
 ## Usage
 
-[カセット](https://gitlab.com/midori-mate/dialogframe-cassettes)
-
 - カセットフォルダをdataフォルダに放り込む。
 - カセットフォルダ内configフォルダから「(...)DialogFrameConfig.py」をコピーする。
 - DialogFrame.exeのあるフォルダ(dataフォルダ)にペーストする。
