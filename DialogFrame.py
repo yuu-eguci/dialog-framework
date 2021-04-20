@@ -33,9 +33,14 @@ from DialogFrameConfig import Conf
 import accept_mouse_click
 
 # ショートカットからの実行だったらカレントディレクトリをexeのあるディレクトリに移す。
+# NOTE: のちのち、「ショートカット実行ではないのにカレントディレクトリを移してしまう」という事態が発生し
+#       混乱を招いた。もし次に発生した際に、気付けるように、 print しておく。
+#       なお、このときの事態は、カセット repository のほうに log フォルダが入っていなかったことが原因だった。
 for d in ['image', 'log', 'maintext', 'other', 'sound']:
     if not os.path.exists(Conf.cassette+os.sep+d):
         os.chdir(os.path.dirname(sys.executable))
+        print('NOTE: ショートカットからの実行であると判断され、カレントディレクトリが移されました。')
+        break
 
 
 class FrameResources:
