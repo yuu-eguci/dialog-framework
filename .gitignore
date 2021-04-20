@@ -10,3 +10,5 @@ DialogFrameConfig.py
 !.gitkeep
 
 .vscode
+cassette-*
+!cassette-DialogFrameTutorial
