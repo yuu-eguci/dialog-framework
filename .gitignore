@@ -8,3 +8,5 @@ DialogFrameConfig.py
 
 # これは最後に書かないとダメ。
 !.gitkeep
+
+.vscode
